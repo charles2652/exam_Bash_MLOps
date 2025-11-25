@@ -1,0 +1,6 @@
+2025-11-25 14:26:22,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-11-25 14:26:22,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-11-25 14:26:22) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.

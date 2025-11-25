@@ -1,0 +1,12 @@
+2025-11-25 14:35:27 - Début de la collecte
+2025-11-25 14:35:27 - Interrogation API pour le modèle rtx3060
+2025-11-25 14:35:27 - Succès : rtx3060 => 20 ventes
+2025-11-25 14:35:27 - Interrogation API pour le modèle rtx3070
+2025-11-25 14:35:27 - Succès : rtx3070 => 6 ventes
+2025-11-25 14:35:27 - Interrogation API pour le modèle rtx3080
+2025-11-25 14:35:28 - Succès : rtx3080 => 6 ventes
+2025-11-25 14:35:28 - Interrogation API pour le modèle rtx3090
+2025-11-25 14:35:28 - Succès : rtx3090 => 5 ventes
+2025-11-25 14:35:28 - Interrogation API pour le modèle rx6700
+2025-11-25 14:35:28 - Succès : rx6700 => 17 ventes
+2025-11-25 14:35:28 - Fin de la collecte, fichiers créés : /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/scripts/../data/raw/sales_data.csv et /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/scripts/../data/raw/sales_20251125_1435.csv

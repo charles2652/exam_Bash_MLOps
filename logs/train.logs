@@ -1,0 +1,18 @@
+2025-11-25 14:49:39 - Début de l'entraînement du modèle
+2025-11-25 14:49:39 - Fichier prétraité le plus récent : /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/data/processed/sales_processed_20251125_1445.csv
+2025-11-25 14:49:39 - Lecture du fichier réussie. Lignes : 5
+2025-11-25 14:49:39 - Nombre de features : 4
+2025-11-25 14:49:39 - Entraînement terminé avec succès
+2025-11-25 14:49:39 - Modèle sauvegardé : /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/model/model.pkl
+2025-11-25 14:49:39 - Fin de l'entraînement du modèle
+----------------------------------------
+2025-11-25 14:51:45 - Début de l'entraînement du modèle
+2025-11-25 14:51:48 - Début de l'entraînement du modèle
+2025-11-25 14:51:48 - Fichier prétraité le plus récent : /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/data/processed/sales_processed_20251125_1445.csv
+2025-11-25 14:51:48 - Lecture du fichier réussie. Lignes : 5
+2025-11-25 14:51:48 - Nombre de features : 4
+2025-11-25 14:51:48 - Entraînement terminé avec succès
+2025-11-25 14:51:48 - Modèle sauvegardé : /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/model/model.pkl
+2025-11-25 14:51:48 - Fin de l'entraînement du modèle
+2025-11-25 14:51:49 - Entraînement terminé avec succès
+----------------------------------------

@@ -1,0 +1,22 @@
+2025-11-25 14:43:46 - Début du prétraitement
+2025-11-25 14:43:46 - Fichier le plus récent trouvé : /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/data/raw/sales_20251125_1435.csv
+2025-11-25 14:43:46 - Lecture du fichier /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/data/raw/sales_20251125_1435.csv réussie. Lignes lues : 5
+2025-11-25 14:43:46 - Prétraitement terminé. Lignes restantes : 5
+2025-11-25 14:43:46 - Fichier prétraité sauvegardé : /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/data/processed/sales_processed_20251125_1443.csv
+2025-11-25 14:43:46 - Fin du prétraitement
+2025-11-25 14:44:04 - Début du prétraitement
+2025-11-25 14:44:04 - Fichier le plus récent trouvé : /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/data/raw/sales_20251125_1435.csv
+2025-11-25 14:44:04 - Lecture du fichier /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/data/raw/sales_20251125_1435.csv réussie. Lignes lues : 5
+2025-11-25 14:44:04 - Prétraitement terminé. Lignes restantes : 5
+2025-11-25 14:44:04 - Fichier prétraité sauvegardé : /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/data/processed/sales_processed_20251125_1444.csv
+2025-11-25 14:44:04 - Fin du prétraitement
+----------------------------------------
+2025-11-25 14:45:42 - Début du prétraitement
+2025-11-25 14:45:43 - Début du prétraitement
+2025-11-25 14:45:43 - Fichier le plus récent trouvé : /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/data/raw/sales_20251125_1435.csv
+2025-11-25 14:45:43 - Lecture du fichier /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/data/raw/sales_20251125_1435.csv réussie. Lignes lues : 5
+2025-11-25 14:45:43 - Prétraitement terminé. Lignes restantes : 5
+2025-11-25 14:45:43 - Fichier prétraité sauvegardé : /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/data/processed/sales_processed_20251125_1445.csv
+2025-11-25 14:45:43 - Fin du prétraitement
+2025-11-25 14:45:43 - Prétraitement terminé avec succès
+----------------------------------------
