@@ -1,0 +1,11 @@
+# -------------------------------------------------
+# Cron jobs portables pour le projet Bash MLOps
+# Exécution toutes les minutes :
+#   1. collect.sh
+#   2. preprocessed.sh
+#   3. train.py
+# -------------------------------------------------
+
+* * * * * /bin/bash -c 'NOW=$(date "+\%Y-\%m-\%d \%H:\%M:\%S"); echo "=== Collect.sh lancé à $NOW ===" >> /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/logs/cron.log; /bin/bash /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/scripts/collect.sh >> /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/logs/cron.log 2>&1'
+* * * * * /bin/bash -c 'NOW=$(date "+\%Y-\%m-\%d \%H:\%M:\%S"); echo "=== Preprocessed.sh lancé à $NOW ===" >> /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/logs/cron.log; /bin/bash /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/scripts/preprocessed.sh >> /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/logs/cron.log 2>&1'
+* * * * * /bin/bash -c 'NOW=$(date "+\%Y-\%m-\%d \%H:\%M:\%S"); echo "=== Train.sh lancé à $NOW ===" >> /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/logs/cron.log; /bin/bash /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/scripts/train.sh >> /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/logs/cron.log 2>&1'

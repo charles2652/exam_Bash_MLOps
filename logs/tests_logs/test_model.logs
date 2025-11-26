@@ -4,3 +4,135 @@
 === Début des tests (2025-11-25 14:26:22) ===
 Début du test de présence du fichier modèle
 Test échoué : Le fichier modèle est manquant.
+2025-11-26 01:07:30,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 01:07:30) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 01:07:30) ===
+2025-11-26 01:07:50,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 01:07:50) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 01:07:50) ===
+2025-11-26 01:07:54,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 01:07:54) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 01:07:54) ===
+2025-11-26 01:08:19,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 01:08:19) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 01:08:19) ===
+2025-11-26 01:12:27,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 01:12:27) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 01:12:27) ===
+2025-11-26 09:50:45,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 09:50:45) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 09:50:45) ===
+2025-11-26 09:59:44,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 09:59:44) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 09:59:44) ===
+2025-11-26 10:18:20,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 10:18:20) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 10:18:20) ===
+2025-11-26 10:23:03,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 10:23:03) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 10:23:03) ===
+2025-11-26 10:27:18,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 10:27:18) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 10:27:18) ===
+2025-11-26 10:36:58,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 10:36:58) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 10:36:58) ===
+2025-11-26 10:53:08,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 10:53:08) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 10:53:08) ===
+2025-11-26 10:58:47,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 10:58:47) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 10:58:47) ===
+2025-11-26 11:00:10,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 11:00:10) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 11:00:10) ===
+2025-11-26 11:02:23,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 11:02:23) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 11:02:23) ===
+2025-11-26 11:03:21,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 11:03:21) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 11:03:21) ===
+2025-11-26 11:07:29,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 11:07:29) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 11:07:29) ===
+2025-11-26 11:10:54,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 11:10:54) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 11:10:54) ===
+2025-11-26 11:11:10,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 11:11:10) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 11:11:10) ===
+2025-11-26 11:12:10,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 11:12:10) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 11:12:10) ===
+2025-11-26 11:12:50,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 11:12:50) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 11:12:50) ===
+2025-11-26 11:13:30,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-11-26 11:13:30) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-11-26 11:13:30) ===

@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Environnements virtuels
+.venv/
+env/
+ENV/
+
+# Logs
+logs/
+*.log
+
+# Fichiers temporaires
+*.tmp

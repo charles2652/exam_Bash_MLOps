@@ -1,87 +1,101 @@
-"""
--------------------------------------------------------------------------------
-Ce script preprocessed.py récupère les données du dernier fichier CSV créé 
-dans le dossier 'data/raw/'.
-
-1. Il applique un prétraitement aux données
-   
-2. Les résultats du prétraitement sont enregistrés dans un nouveau fichier CSV 
-   dans le dossier 'data/processed/', avec un nom au format 
-   'sales_processed_YYYYMMDD_HHMM.csv'.
-   
-3. Toutes les étapes du prétraitement sont enregistrées dans le fichier 
-   'logs/preprocessed.logs' afin de garantir un suivi détaillé du processus.
-
-Les erreurs ou anomalies éventuelles sont également loguées pour assurer la traçabilité.
--------------------------------------------------------------------------------
-"""
-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 import pandas as pd
-import glob
-import os
+from pathlib import Path
 from datetime import datetime
+import logging
+from sklearn.preprocessing import OrdinalEncoder
 
-# Chemin du script
-DIR = os.path.dirname(os.path.abspath(__file__))  # src/
-PROJECT_ROOT = os.path.abspath(os.path.join(DIR, ".."))
+# =====================
+# Dossiers d'entrée et sortie
+# =====================
+BASE_DIR = Path(__file__).parent.parent.resolve()
+INPUT_FOLDER = BASE_DIR / "data/raw"
+OUTPUT_FOLDER = BASE_DIR / "data/processed"
+LOG_FILE = BASE_DIR / "logs" / "processed.logs"
 
-# Dossiers
-RAW_DIR = os.path.join(PROJECT_ROOT, "data/raw")
-PROCESSED_DIR = os.path.join(PROJECT_ROOT, "data/processed")
-LOG_DIR = os.path.join(PROJECT_ROOT, "logs")
-LOG_FILE = os.path.join(LOG_DIR, "preprocessed.log")
+# Créer les dossiers si nécessaire
+INPUT_FOLDER.mkdir(parents=True, exist_ok=True)
+OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
+LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
 
-def log(message: str):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    with open(LOG_FILE, "a") as f:
-        f.write(f"{timestamp} - {message}\n")
+# =====================
+# Configuration des logs
+# =====================
+logging.basicConfig(
+    filename=LOG_FILE,
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
 
-log("Début du prétraitement")
+# =====================
+# Fonctions
+# =====================
 
-# Récupérer les fichiers horodatés seulement (ignorer sales_data.csv)
-csv_files = [f for f in glob.glob(os.path.join(RAW_DIR, "sales_*.csv"))        
-             if "sales_data.csv" not in f]
+def load_latest_raw_file():
+    """Charge le dernier fichier raw disponible."""
+    csv_files = list(INPUT_FOLDER.glob("sales_*.csv"))
+    if not csv_files:
+        logging.error(f"Aucun fichier raw trouvé dans {INPUT_FOLDER}")
+        raise FileNotFoundError(f"Aucun fichier raw trouvé dans {INPUT_FOLDER}")
+    latest_file = max(csv_files, key=lambda f: f.stat().st_mtime)
+    logging.info(f"Fichier raw chargé : {latest_file.name}")
+    return latest_file
 
-if not csv_files:
-    log("Aucun fichier CSV horodaté trouvé dans data/raw")
-    exit()
 
-# Prendre le fichier le plus récent
-latest_file = max(csv_files, key=os.path.getctime)
-log(f"Fichier le plus récent trouvé : {latest_file}")
+def preprocess_dataframe(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Prétraitement :
+    - suppression timestamp
+    - garder model + sales
+    - encodage ordinal du model
+    - conversion entière de sales
+    """
 
-try:
-    # Lire le CSV en ignorant les lignes mal formées
-    df = pd.read_csv(latest_file, on_bad_lines='warn')
-    log(f"Lecture du fichier {latest_file} réussie. Lignes lues : {len(df)}")  
+    # Supprimer 'timestamp' si présent
+    if "timestamp" in df.columns:
+        df = df.drop(columns=["timestamp"])
+        logging.info("Colonne 'timestamp' supprimée")
 
-    # -----------------------------
-    # Prétraitement
-    # -----------------------------
-    df = df.dropna()  # supprimer valeurs manquantes
-    df = df[df['sales'].apply(lambda x: str(x).isdigit())]  # garder les ventes numériques
-    df['sales'] = df['sales'].astype(int)
-    df = df[df['sales'] > 0]  # filtrer ventes > 0
-    df['timestamp'] = pd.to_datetime(df['timestamp'], errors='coerce')
-    df = df.dropna(subset=['timestamp'])
+    # Garder uniquement 'model' et 'sales'
+    expected_cols = ["model", "sales"]
+    df = df[expected_cols]
 
-    log(f"Prétraitement terminé. Lignes restantes : {len(df)}")
+    # Encodage ordinal de 'model'
+    encoder = OrdinalEncoder(handle_unknown="use_encoded_value", unknown_value=-1)
+    df["model"] = encoder.fit_transform(df[["model"]]).astype(int)
 
-    # -----------------------------
-    # Créer dossier processed si nécessaire
-    # -----------------------------
-    os.makedirs(PROCESSED_DIR, exist_ok=True)
+    # Nettoyage et conversion de 'sales'
+    df["sales"] = pd.to_numeric(df["sales"], errors="coerce").fillna(0).astype(int)
 
-    # -----------------------------
-    # Sauvegarde du fichier prétraité
-    # -----------------------------
-    date_str = datetime.now().strftime("%Y%m%d_%H%M")
-    output_file = os.path.join(PROCESSED_DIR, f"sales_processed_{date_str}.csv")
+    logging.info("Prétraitement terminé : colonnes = model, sales (int)")
+    return df
+
+
+def save_processed_file(df: pd.DataFrame):
+    """Enregistre le DataFrame prétraité."""
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_file = OUTPUT_FOLDER / f"sales_processed_{timestamp}.csv"
     df.to_csv(output_file, index=False)
-    log(f"Fichier prétraité sauvegardé : {output_file}")
+    logging.info(f"Fichier prétraité enregistré : {output_file.name}")
+    return output_file
 
-except Exception as e:
-    log(f"Erreur lors du prétraitement : {e}")
 
-log("Fin du prétraitement")
+# =====================
+# Main
+# =====================
+def main():
+    try:
+        raw_file = load_latest_raw_file()
+        df = pd.read_csv(raw_file)
+        df = preprocess_dataframe(df)
+        save_processed_file(df)
+#        print("Prétraitement terminé avec succès.")
+    except Exception as e:
+        logging.error(f"Erreur pendant le prétraitement : {e}")
+        print(f"Erreur : {e}")
+
+
+if __name__ == "__main__":
+    main()

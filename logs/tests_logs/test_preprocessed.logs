@@ -46,3 +46,365 @@ Aucun fichier prétraité trouvé.
 
 === Début des tests (2025-11-25 14:28:45) ===
 Aucun fichier prétraité trouvé.
+
+=== Début des tests (2025-11-25 21:58:58) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_1951.csv
+Le fichier contient une colonne 'timestamp'
+
+=== Début des tests (2025-11-25 22:02:26) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_1951.csv
+Le fichier contient une colonne 'timestamp'
+
+=== Début des tests (2025-11-25 22:09:06) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_1951.csv
+Le fichier contient une colonne 'timestamp'
+
+=== Début des tests (2025-11-25 22:11:57) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2211.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 22:13:58) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2213.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 22:16:06) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2215.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 22:18:03) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2217.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 22:22:07) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2221.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 22:28:35) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2227.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 22:32:54) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2232.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 22:38:09) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2232.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 22:42:14) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_2241.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 22:50:04) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_2241.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 22:51:56) ===
+Aucun fichier prétraité trouvé.
+
+=== Début des tests (2025-11-25 22:54:40) ===
+Aucun fichier prétraité trouvé.
+
+=== Début des tests (2025-11-25 23:12:22) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2311.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 23:14:25) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2314.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 23:17:18) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2317.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 23:32:45) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2332.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 23:33:48) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2333.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 23:45:21) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2345.csv
+Le fichier contient une colonne 'timestamp'
+
+=== Début des tests (2025-11-25 23:48:35) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2347.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-25 23:48:54) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2347.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-26 00:11:18) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2347.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-26 00:17:44) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2347.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-26 00:41:54) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2347.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-26 01:00:15) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251125_2347.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Le fichier contient des colonnes non entières
+
+=== Début des tests (2025-11-26 01:04:08) ===
+Aucun fichier prétraité trouvé.
+
+=== Début des tests (2025-11-26 01:06:56) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_010644.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 01:07:29) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_010644.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 01:07:50) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_010644.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 01:07:54) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_010644.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 01:08:18) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_010644.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 01:12:26) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_010644.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 09:50:32) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_094943.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 09:59:43) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_094943.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 10:18:19) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_101815.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 10:23:02) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_102257.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 10:27:17) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_102713.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 10:36:57) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_103653.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 10:53:07) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_105305.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 10:58:47) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_105843.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:00:10) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_110005.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:02:23) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_110219.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:03:21) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_110317.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:07:28) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_110724.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:10:53) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_111049.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:11:09) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_111105.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:12:09) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_111205.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:12:49) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_111245.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:13:30) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251126_111325.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+

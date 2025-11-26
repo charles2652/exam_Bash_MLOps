@@ -131,3 +131,237 @@ Fin du test de structure du CSV
 Début du test de structure du CSV
 Test échoué avec l'erreur: Error tokenizing data. C error: Expected 3 fields in line 501, saw 5
 
+
+=== Début des tests (2025-11-25 19:56:41) ===
+Début du test de structure du CSV
+Test échoué avec l'erreur: Error tokenizing data. C error: Expected 3 fields in line 501, saw 5
+
+
+=== Début des tests (2025-11-25 19:57:15) ===
+Début du test de structure du CSV
+Test échoué avec l'erreur: Error tokenizing data. C error: Expected 3 fields in line 501, saw 5
+
+
+=== Début des tests (2025-11-25 19:57:48) ===
+Début du test de structure du CSV
+Test échoué avec l'erreur: Error tokenizing data. C error: Expected 3 fields in line 501, saw 5
+
+
+=== Début des tests (2025-11-25 20:58:36) ===
+Début du test de structure du CSV
+Test échoué avec l'erreur: Error tokenizing data. C error: Expected 3 fields in line 501, saw 5
+
+
+=== Début des tests (2025-11-25 21:05:02) ===
+Début du test de structure du CSV
+Test échoué avec l'erreur: Error tokenizing data. C error: Expected 3 fields in line 501, saw 5
+
+
+=== Début des tests (2025-11-25 21:07:00) ===
+Début du test de structure du CSV
+Test échoué avec l'erreur: Error tokenizing data. C error: Expected 3 fields in line 501, saw 5
+
+
+=== Début des tests (2025-11-25 21:07:14) ===
+Début du test de structure du CSV
+Test échoué avec l'erreur: Error tokenizing data. C error: Expected 3 fields in line 501, saw 5
+
+
+=== Début des tests (2025-11-25 21:08:07) ===
+Début du test de structure du CSV
+Test échoué avec l'erreur: Error tokenizing data. C error: Expected 3 fields in line 501, saw 5
+
+
+=== Début des tests (2025-11-25 21:36:10) ===
+Début du test de structure du CSV
+Test échoué avec l'erreur: Error tokenizing data. C error: Expected 3 fields in line 501, saw 5
+
+
+=== Début des tests (2025-11-25 21:43:09) ===
+Début du test de structure du CSV
+Test échoué avec l'erreur: Error tokenizing data. C error: Expected 3 fields in line 501, saw 5
+
+
+=== Début des tests (2025-11-25 21:58:11) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 5 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 01:07:28) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1128 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 01:07:49) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1128 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 01:07:53) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1128 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 01:08:17) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1128 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 01:12:25) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1128 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 09:50:20) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 5 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 09:59:42) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1233 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 10:18:18) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 5 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 10:23:00) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1373 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 10:27:16) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1403 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 10:36:56) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1478 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 10:53:06) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1578 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 10:58:46) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1608 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:00:09) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1623 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:02:22) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1638 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:03:20) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1648 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:07:27) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1673 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:10:52) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1693 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:11:08) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1703 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:12:08) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1713 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:12:48) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1718 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+
+
+=== Début des tests (2025-11-26 11:13:28) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 1728 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+

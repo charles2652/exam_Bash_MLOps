@@ -1,28 +1,17 @@
-# =============================================================================
-# Ce script preprocessed.sh exécute le programme src/preprocessed.py
-# et enregistre les détails de son exécution dans le fichier de log
-# logs/preprocessed.logs.
-# =============================================================================
+#!/bin/bash
 
-# Chemin du dossier scripts
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+LOG_DIR="$DIR/../logs"
+LOG_FILE="$LOG_DIR/processed.log"
+SRC_DIR="$DIR/../src"
+PYTHON="/home/ubuntu/exam_MAMOU/exam_bash/.venv/bin/python3"
 
-# Chemin vers le script Python
-PYTHON_SCRIPT="$DIR/../src/preprocessed.py"
+mkdir -p "$LOG_DIR"
+mkdir -p "$DIR/../data/processed"
 
-# Chemin vers le fichier de log
-LOG_FILE="$DIR/../logs/preprocessed.log"
+echo "=== Début du prétraitement ===" | tee -a "$LOG_FILE"
 
-echo "----------------------------------------" >> "$LOG_FILE"
-echo "$(date +"%Y-%m-%d %H:%M:%S") - Début du prétraitement" >> "$LOG_FILE"    
+# Lancer le script Python
+"$PYTHON" "$SRC_DIR/preprocessed.py" 2>&1 | tee -a "$LOG_FILE"
 
-# Exécuter le script Python et rediriger stdout + stderr vers le log
-python3 "$PYTHON_SCRIPT" >> "$LOG_FILE" 2>&1
-
-if [ $? -eq 0 ]; then
-    echo "$(date +"%Y-%m-%d %H:%M:%S") - Prétraitement terminé avec succès" >> "$LOG_FILE"
-else
-    echo "$(date +"%Y-%m-%d %H:%M:%S") - Erreur lors du prétraitement" >> "$LOG_FILE"
-fi
-
-echo "----------------------------------------" >> "$LOG_FILE"
+echo "=== Prétraitement terminé avec succès ===" | tee -a "$LOG_FILE"
