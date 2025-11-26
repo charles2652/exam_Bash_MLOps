@@ -1,16 +1,40 @@
 #!/bin/bash
 
+
+# Configuration des chemins
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-LOG_DIR="$DIR/../logs"
-LOG_FILE="$LOG_DIR/train.log"
-SRC_DIR="$DIR/../src"
-PYTHON="/home/ubuntu/exam_MAMOU/exam_bash/.venv/bin/python3"
+ROOT="$HOME/exam_MAMOU/exam_bash"
+LOG_DIR="$ROOT/logs"
+LOG_FILE="$LOG_DIR/train.logs"
+PYTHON="$ROOT/.venv/bin/python3"
+SRC_FILE="$DIR/../src/train.py"
 
-mkdir -p "$LOG_DIR"
 
+# Début du script
+
+echo "==============================================" | tee -a "$LOG_FILE"
 echo "=== Début de l'entraînement ===" | tee -a "$LOG_FILE"
+echo "==============================================" | tee -a "$LOG_FILE"
 
-# Lancer le script Python d'entraînement
-"$PYTHON" "$SRC_DIR/train.py" 2>&1 | tee -a "$LOG_FILE"
+# Vérification que Python existe
+if [ ! -f "$PYTHON" ]; then
+    echo "Erreur : Python non trouvé dans $PYTHON" | tee -a "$LOG_FILE"
+    exit 1
+fi
 
-echo "=== Entraînement terminé avec succès ===" | tee -a "$LOG_FILE"
+# Vérification que le script train.py existe
+if [ ! -f "$SRC_FILE" ]; then
+    echo "Erreur : Script $SRC_FILE introuvable" | tee -a "$LOG_FILE"
+    exit 1
+fi
+
+# Lancer l'entraînement et loguer tout
+"$PYTHON" "$SRC_FILE" 2>&1 | tee -a "$LOG_FILE"
+
+
+# Fin du script
+
+echo "==============================================" | tee -a "$LOG_FILE"
+echo "=== Entraînement terminé  ===" | tee -a "$LOG_FILE"
+echo "==============================================" | tee -a "$LOG_FILE"
