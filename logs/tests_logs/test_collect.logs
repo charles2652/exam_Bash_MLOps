@@ -637,3 +637,11 @@ Test réussi : Le CSV est valide.
 Fin du test de structure du CSV
 === Fin des tests ===
 
+
+=== Début des tests (2025-12-01 13:56:56) ===
+Début du test de structure du CSV
+Fichier CSV chargé avec 20 lignes et 3 colonnes
+Test réussi : Le CSV est valide.
+Fin du test de structure du CSV
+=== Fin des tests ===
+

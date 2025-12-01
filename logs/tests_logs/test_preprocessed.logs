@@ -714,3 +714,12 @@ Vérification types entiers : OK (toutes les colonnes sont des entiers)
 Test terminé pour le fichier prétraité.
 === Fin des tests ===
 
+
+=== Début des tests (2025-12-01 13:56:57) ===
+Début du test de structure du fichier prétraité
+Fichier chargé : data/processed/sales_processed_20251201_135653.csv
+Vérification colonne 'timestamp' : OK (non présente)
+Vérification types entiers : OK (toutes les colonnes sont des entiers)
+Test terminé pour le fichier prétraité.
+=== Fin des tests ===
+
