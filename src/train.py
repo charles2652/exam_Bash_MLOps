@@ -1,49 +1,41 @@
 #!/usr/bin/env python3
 
-
 import glob
 import pandas as pd
 from datetime import datetime
 import joblib
 import xgboost as xgb
-import os
+from pathlib import Path
 
+# Chemins du projet
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROCESSED_DIR = PROJECT_ROOT / "data/processed"
+MODEL_DIR = PROJECT_ROOT / "model"
+LOG_DIR = PROJECT_ROOT / "logs"
+LOG_FILE = LOG_DIR / "train.logs"
 
-# Les variables et les chemins du projet
-
-DIR = os.path.dirname(os.path.abspath(__file__))  # src/
-PROJECT_ROOT = os.path.abspath(os.path.join(DIR, ".."))
-PROCESSED_DIR = os.path.join(PROJECT_ROOT, "data/processed")
-MODEL_DIR = os.path.join(PROJECT_ROOT, "model")
-LOG_DIR = os.path.join(PROJECT_ROOT, "logs")
-LOG_FILE = os.path.join(LOG_DIR, "train.logs")
-
-os.makedirs(LOG_DIR, exist_ok=True)
-os.makedirs(MODEL_DIR, exist_ok=True)
-
+# Création des dossiers si manquants
+LOG_DIR.mkdir(parents=True, exist_ok=True)
+MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
 # Fonction de log (fichier + écran)
-
 def log(message: str):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     full_message = f"{timestamp} - {message}"
-    print(full_message)  
+    print(full_message)
     with open(LOG_FILE, "a") as f:
         f.write(full_message + "\n")
 
-
-# Début de l'entraînement
-
 log("=== Début de l'entraînement du modèle ===")
 
-
-csv_files = glob.glob(os.path.join(PROCESSED_DIR, "sales_processed_*.csv"))
+# Chercher le dernier fichier prétraité
+csv_files = sorted(PROCESSED_DIR.glob("sales_processed_*.csv"))
 if not csv_files:
     log("Aucun fichier prétraité trouvé dans data/processed")
     exit()
 
-latest_file = max(csv_files, key=os.path.getctime)
-log(f"Fichier prétraité le plus récent : {os.path.relpath(latest_file, PROJECT_ROOT)}")
+latest_file = csv_files[-1]
+log(f"Fichier prétraité le plus récent : {latest_file.relative_to(PROJECT_ROOT)}")
 
 try:
     df = pd.read_csv(latest_file)
@@ -54,7 +46,6 @@ try:
     y = df["sales"]
     log(f"Nombre de features : {X.shape[1]}")
 
-
     model = xgb.XGBRegressor(
         n_estimators=100,
         max_depth=3,
@@ -64,13 +55,16 @@ try:
     model.fit(X, y)
     log("Entraînement terminé avec succès")
 
-
-    # Sauvegarde du modèle
-
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
-    model_file = os.path.join(MODEL_DIR, f"model_{timestamp}.pkl")
+    # Sauvegarde du modèle horodaté
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    model_file = MODEL_DIR / f"xgb_model_{timestamp}.joblib"
     joblib.dump(model, model_file)
-    log(f"Modèle sauvegardé : {os.path.relpath(model_file, PROJECT_ROOT)}")
+    log(f"Modèle sauvegardé : {model_file.relative_to(PROJECT_ROOT)}")
+
+    # --- Création du lien fixe model.pkl pour le test ---
+    fixed_model_file = MODEL_DIR / "model.pkl"
+    joblib.dump(model, fixed_model_file)
+    log(f"Modèle fixe pour test sauvegardé : {fixed_model_file.relative_to(PROJECT_ROOT)}")
 
 except Exception as e:
     log(f"Erreur lors de l'entraînement : {e}")

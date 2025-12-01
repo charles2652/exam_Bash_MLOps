@@ -214,3 +214,141 @@ Test réussi : le fichier modèle existe.
 Début du test de présence du fichier modèle
 Test réussi : le fichier modèle existe.
 === Fin des tests (2025-11-26 20:16:55) ===
+2025-11-30 22:30:57,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-11-30 22:30:57,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-11-30 22:30:57) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.
+2025-11-30 22:31:20,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-11-30 22:31:20,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-11-30 22:31:20) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.
+2025-12-01 12:04:03,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-12-01 12:04:03,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-12-01 12:04:03) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.
+2025-12-01 12:04:42,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-12-01 12:04:42,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-12-01 12:04:42) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.
+2025-12-01 12:09:14,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-12-01 12:09:14,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-12-01 12:09:14) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.
+2025-12-01 12:14:14,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-12-01 12:14:14,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-12-01 12:14:14) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.
+2025-12-01 12:16:28,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-12-01 12:16:28,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-12-01 12:16:28) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.
+2025-12-01 12:20:49,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-12-01 12:20:49,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-12-01 12:20:49) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.
+2025-12-01 12:28:49,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-12-01 12:28:49,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-12-01 12:28:49) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.
+2025-12-01 12:34:18,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-12-01 12:34:18,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-12-01 12:34:18) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.
+2025-12-01 12:38:34,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-12-01 12:38:34,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-12-01 12:38:34) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.
+2025-12-01 12:40:46,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-12-01 12:40:46,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-12-01 12:40:46) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.
+2025-12-01 12:45:42,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-12-01 12:45:42,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-12-01 12:45:42) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.
+2025-12-01 12:52:58,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-12-01 12:52:58,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-12-01 12:52:58) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.
+2025-12-01 12:55:04,000 - ERROR - Le modèle 'model/model.pkl' est introuvable dans model/
+2025-12-01 12:55:04,000 - ERROR - Test échoué avec l'erreur: Impossible de trouver le fichier modèle.
+
+=== Début des tests (2025-12-01 12:55:04) ===
+Début du test de présence du fichier modèle
+Test échoué : Le fichier modèle est manquant.
+2025-12-01 12:59:25,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-12-01 12:59:25) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-12-01 12:59:25) ===
+2025-12-01 13:05:08,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-12-01 13:05:08) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-12-01 13:05:08) ===
+2025-12-01 13:06:07,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-12-01 13:06:07) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-12-01 13:06:07) ===
+2025-12-01 13:09:07,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-12-01 13:09:07) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-12-01 13:09:07) ===
+2025-12-01 13:12:18,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-12-01 13:12:18) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-12-01 13:12:18) ===
+2025-12-01 13:22:04,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-12-01 13:22:04) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-12-01 13:22:04) ===
+2025-12-01 13:25:36,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-12-01 13:25:36) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-12-01 13:25:36) ===
+2025-12-01 13:33:08,000 - INFO - Modèle trouvé : model/model.pkl
+
+=== Début des tests (2025-12-01 13:33:08) ===
+Début du test de présence du fichier modèle
+Test réussi : le fichier modèle existe.
+=== Fin des tests (2025-12-01 13:33:08) ===

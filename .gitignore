@@ -1,18 +1,23 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.sqlite3
-
-# Environnements virtuels
+# Environnement virtuel
 .venv/
-env/
-ENV/
 
-# Logs
+# Logs et fichiers temporaires
 logs/
 *.log
 
-# Fichiers temporaires
-*.tmp
+# Données générées par le pipeline
+data/processed/
+model/
+
+# Fichiers système / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Caches Python
+__pycache__/
+*.py[cod]
+
+# Fichiers lock
+*.lock

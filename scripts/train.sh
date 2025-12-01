@@ -1,40 +1,41 @@
 #!/bin/bash
 
-
-# Configuration des chemins
-
+# Variables utilisées dans le script
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-ROOT="$HOME/exam_MAMOU/exam_bash"
+ROOT="$DIR/.."
+PYTHON="$ROOT/.venv/bin/python3"
+SRC_FILE="$ROOT/src/train.py"
+MODEL_DIR="$ROOT/model"
 LOG_DIR="$ROOT/logs"
 LOG_FILE="$LOG_DIR/train.logs"
-PYTHON="$ROOT/.venv/bin/python3"
-SRC_FILE="$DIR/../src/train.py"
 
+# Création des dossiers si manquants
+mkdir -p "$MODEL_DIR" "$LOG_DIR"
 
-# Début du script
-
-echo "==============================================" | tee -a "$LOG_FILE"
 echo "=== Début de l'entraînement ===" | tee -a "$LOG_FILE"
-echo "==============================================" | tee -a "$LOG_FILE"
 
-# Vérification que Python existe
-if [ ! -f "$PYTHON" ]; then
+
+if [ ! -x "$PYTHON" ]; then
     echo "Erreur : Python non trouvé dans $PYTHON" | tee -a "$LOG_FILE"
     exit 1
 fi
 
-# Vérification que le script train.py existe
 if [ ! -f "$SRC_FILE" ]; then
-    echo "Erreur : Script $SRC_FILE introuvable" | tee -a "$LOG_FILE"
+    echo "Erreur : Script train.py introuvable" | tee -a "$LOG_FILE"
     exit 1
 fi
 
-# Lancer l'entraînement et loguer tout
+
+cd "$ROOT" || exit 1
 "$PYTHON" "$SRC_FILE" 2>&1 | tee -a "$LOG_FILE"
 
+# Vérification de  la présence du dernier modèle
+LATEST_MODEL=$(ls -t "$MODEL_DIR"/xgb_model_*.joblib 2>/dev/null | head -1)
+if [ -f "$LATEST_MODEL" ]; then
+    echo "Modèle sauvegardé : $LATEST_MODEL" | tee -a "$LOG_FILE"
+else
+    echo "Erreur : Aucun modèle trouvé" | tee -a "$LOG_FILE"
+    exit 1
+fi
 
-# Fin du script
-
-echo "==============================================" | tee -a "$LOG_FILE"
-echo "=== Entraînement terminé  ===" | tee -a "$LOG_FILE"
-echo "==============================================" | tee -a "$LOG_FILE"
+echo "=== Entraînement terminé ===" | tee -a "$LOG_FILE"
