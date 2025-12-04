@@ -26,7 +26,7 @@ logging.basicConfig(
 # Liste des  Fonctions utilisées #
 
 def load_latest_raw_file() -> Path:
-    csv_files = list(INPUT_FOLDER.glob("sales_*.csv"))
+    csv_files = list(INPUT_FOLDER.glob("sales*.csv"))
     if not csv_files:
         logging.error(f"Aucun fichier raw trouvé dans {INPUT_FOLDER}")
         raise FileNotFoundError(f"Aucun fichier raw trouvé dans {INPUT_FOLDER}")

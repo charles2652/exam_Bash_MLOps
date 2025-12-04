@@ -1,2 +1,2 @@
-# Lancer le pipeline complet via make bash toutes les 3 minutes
-*/3 * * * * cd /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps && /bin/bash -c "make bash"
+
+*/3 * * * * /home/ubuntu/exam_MAMOU/exam_bash/exam_Bash_MLOps/scripts/run.sh
